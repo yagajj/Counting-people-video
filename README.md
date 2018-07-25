@@ -1,5 +1,6 @@
-# Counting-people-video
-From the CCTV footage in each room, we get the number of people currently standing in there and generate insights about the inflow of visitors throughout the day. This way you could concentrate on the areas where visitors are not going. 
+# Tensorflow-video-Recognition-HTML-interface
+This is a trial modified from Counting-people-video of Nikhil-Kasukurthi. 
+From the webcam video recognition of tensorflow, we list the recognized object throught each recognition session onto a webpage with the video and record the list of each session into a database. This way you could provide a better user interface and concentrate on the areas where recognition are not going. 
 
 Using the Tensorflow Object detection API, we will be counting the number of people in a video. A frame is extracted every 30 seconds from the video and a forward pass of the model is performed. If a person is found in the video, then the count is increased. 
 
